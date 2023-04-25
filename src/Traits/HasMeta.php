@@ -2,7 +2,16 @@
 
 namespace Kingpatje\Meta\Traits;
 
+use Kingpatje\Meta\Models\MetaData;
+
 trait HasMeta {
+
+
+    public function meta()
+    {
+        return $this->morphMany(MetaData::class, 'metaable');
+    }
+
 
     public function getMeta($key, $default = null)
     {
