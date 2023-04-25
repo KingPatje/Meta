@@ -1,0 +1,16 @@
+{
+    "name": "kingpatje/meta",
+    "description": "Adds key value table to objects for storing simple things",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kingpatje\\Meta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patrick vd Pols",
+            "email": "patrick@toscani.nl"
+        }
+    ]
+}
