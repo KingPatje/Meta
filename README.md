@@ -26,7 +26,8 @@ Add the meta trait to your model:
     {
         use HasMeta;
     }
-   
+
+
     $user = \App\Models\User::first();
 
     $user->getMeta('non_existant_value'); // returns null
@@ -40,6 +41,3 @@ Add the meta trait to your model:
         'two' => 'two',
         'three' => 'three',
     ]);
-
-    });   
- 
