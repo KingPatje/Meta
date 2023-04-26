@@ -12,5 +12,12 @@
             "name": "Patrick vd Pols",
             "email": "patrick@toscani.nl"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kingpatje\\Meta\\Providers\\MetaServiceProvider"
+            ]
+        }
+    }
 }
