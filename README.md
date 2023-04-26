@@ -27,4 +27,19 @@ Add the meta trait to your model:
         use HasMeta;
     }
    
+    $user = \App\Models\User::first();
+
+    $user->getMeta('non_existant_value'); // returns null
+    $user->getMeta('non_existant_value', 'default'); // returns `default`
+    $user->setMeta('one', 'one'); // set a meta value
+    $user->getMeta('one'); // returns `one`;
+
+    // set multiple values at once.
+    $user->setMultiple([
+        'one' => 'one',
+        'two' => 'two',
+        'three' => 'three',
+    ]);
+
+    });   
  
