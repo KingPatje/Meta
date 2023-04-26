@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kingpatje\\Meta\\Providers\\MetaServiceProvider"
+                "Kingpatje\\Meta\\Providers\\Provider"
             ]
         }
     }
