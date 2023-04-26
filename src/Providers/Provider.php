@@ -4,7 +4,7 @@ namespace Kingpatje\Meta\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class MetaDataProvider extends ServiceProvider
+class Provider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
